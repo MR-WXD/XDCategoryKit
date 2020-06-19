@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07A58FFEAD69DEBAED959C73 /* XDCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XDCategoryKit.podspec; path = ../XDCategoryKit.podspec; sourceTree = "<group>"; };
+		07A58FFEAD69DEBAED959C73 /* XDCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XDCategoryKit.podspec; path = ../XDCategoryKit.podspec; sourceTree = "<group>"; };
 		0C0E0FCD23D2050E23EFEAAC /* Pods-XDCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDCategoryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XDCategoryKit_Example/Pods-XDCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2C8604B3C20C84E3F74BD4F7 /* Pods-XDCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XDCategoryKit_Tests/Pods-XDCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		52C8DD40E025D0AC6DA3CC8D /* Pods-XDCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XDCategoryKit_Example/Pods-XDCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FD22B6A3A42B3F7D5D044C2 /* Pods-XDCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDCategoryKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XDCategoryKit_Tests/Pods-XDCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1E7FADAEC8A1FE9AF62B636 /* Pods_XDCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE93CFB55080AA4C8D7479A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EC2A3EC237690E7D8A4D7E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AE93CFB55080AA4C8D7479A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC2A3EC237690E7D8A4D7E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xuedong1;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K5G68FH2V5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -260,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -548,13 +552,15 @@
 			baseConfigurationReference = 52C8DD40E025D0AC6DA3CC8D /* Pods-XDCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K5G68FH2V5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XDCategoryKit/XDCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "XDCategoryKit/XDCategoryKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.xue.dong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -564,13 +570,15 @@
 			baseConfigurationReference = 0C0E0FCD23D2050E23EFEAAC /* Pods-XDCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K5G68FH2V5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XDCategoryKit/XDCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "XDCategoryKit/XDCategoryKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.xue.dong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

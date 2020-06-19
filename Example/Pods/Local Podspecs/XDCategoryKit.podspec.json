@@ -1,0 +1,22 @@
+{
+  "name": "XDCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of XDCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuedong1/XDCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuedong1": "wangxd_code@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xuedong1/XDCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XDCategoryKit/Classes/**/*"
+}

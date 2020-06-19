@@ -1,0 +1,16 @@
+PODS:
+  - XDCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - XDCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  XDCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XDCategoryKit: 5ff402f579e37967febc6c55a641e06b70ce2e0b
+
+PODFILE CHECKSUM: 5fc957f00cd14d46701ca580365864695a49fae8
+
+COCOAPODS: 1.1.1
