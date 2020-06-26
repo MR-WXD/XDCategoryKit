@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XDCategoryKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'category tool'
 
   s.description      = <<-DESC
@@ -17,7 +17,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XDCategoryKit/Classes/**/*'
+  s.default_subspec = 'framework'
+  s.subspec 'source' do |source|
+     source.source_files = 'XDCategoryKit/Classes/**/*'
+     
+  end
+  s.subspec 'framework' do |framework|
+
+    framework.ios.vendored_frameworks = 'XDCategoryKit/Pod/*.framework'
+  end
+  
   
   # s.resource_bundles = {
   #   'XDCategoryKit' => ['XDCategoryKit/Assets/*.png']
